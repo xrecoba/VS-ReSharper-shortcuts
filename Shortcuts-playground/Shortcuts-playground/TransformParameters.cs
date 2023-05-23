@@ -1,7 +1,8 @@
 namespace ShortcutsPlayground;
 
-// Ctrl + Shift + R  Tranform parameters
-// Alt + Enter - Convert to record
+// Ctrl + Shift + R Transform parameters
+// Alt + Enter In class name
+
 public class TransformParameters
 {
     public class InsuranceRiskService
@@ -9,7 +10,9 @@ public class TransformParameters
         public double GetRisk(string creditCardNumber, int amount, DateTime purchaseMoment)
         {
             // Put your algorithm here
-            return 0;
+            return creditCardNumber.Length +
+                   amount + 
+                   purchaseMoment.DayOfYear;
         }
     }
 }
