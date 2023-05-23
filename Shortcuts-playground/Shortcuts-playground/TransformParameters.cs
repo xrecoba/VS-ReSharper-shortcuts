@@ -1,7 +1,7 @@
 namespace ShortcutsPlayground;
 
 // Ctrl + Shift + R  Tranform parameters
-
+// Alt + Enter - Convert to record
 public class TransformParameters
 {
     public class InsuranceRiskService
