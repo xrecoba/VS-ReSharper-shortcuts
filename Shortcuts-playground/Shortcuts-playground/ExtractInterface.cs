@@ -2,8 +2,6 @@ namespace ShortcutsPlayground;
 
 // Ctrl + R + I
 // Create a class that implements the interfacte (Alt+Enter on the interface name)
-// Move method to Base class
-
 public class ExtractInterface
 {   
     public int AMethod()

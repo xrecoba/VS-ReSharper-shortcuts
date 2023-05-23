@@ -1,5 +1,6 @@
 namespace ShortcutsPlayground;
 
+// Extract method: Ctrl + R + M 
 public class WithSomeMethodsToExtract
 {
     public class TennisGame1

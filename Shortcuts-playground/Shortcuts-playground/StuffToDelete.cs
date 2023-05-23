@@ -12,22 +12,3 @@ public class StuffToDelete
     {
     }
 }
-
-public class ExtractInterface
-{
-    public int AMethod()
-    {
-        return 0;
-    }
-
-    public string AnotherMethod(int aNumber)
-    {
-        APrivateMethod();
-        return aNumber.ToString();
-    }
-
-    public void APrivateMethod()
-    {
-
-    }
-}

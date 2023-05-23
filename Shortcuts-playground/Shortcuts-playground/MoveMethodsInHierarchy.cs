@@ -31,15 +31,3 @@ public class MoveMethodsInHierarchy
         }
     }
 }
-
-// tranform parameters
-public class TransformParameters
-{
-    public class InsuranceRiskService
-    {
-        public double GetRisk(string creditCardNumber, int amount, DateTime purchaseMoment)
-        {
-            return 0;
-        }
-    }
-}

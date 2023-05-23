@@ -8,15 +8,3 @@ public class CrappyMethodToReorganize
         return false;
     }
 }
-
-public class StuffToDelete
-{
-    public void AMethodCallingAnother()
-    {
-        TheOtherMethod();
-    }
-
-    public void TheOtherMethod()
-    {
-    }
-}
