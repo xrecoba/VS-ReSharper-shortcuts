@@ -1,16 +1,9 @@
-namespace ShortcutsPlayground
+namespace ShortcutsPlayground;
+
+class MoveInstanceMethod
 {
-    public class UnitTest1
-    {
-        public int AnInteger { get; private set; }
-
-        [Fact]
-        public void Test1()
-        {
-
-        }
-    }
-
+    //1. Extract a method that receives the class we wanna move to (Ctrl+Shift+m)
+    //2. Move to instance class (Ctrl+Shift+o)
     public class EnviedClass
     {
         public int ANumber { get; set; }
@@ -25,13 +18,8 @@ namespace ShortcutsPlayground
         public bool Check(int aNumber)
         {
             var sut = new EnviedClass(4);
-            var isEven = IsEven(sut);
+            var isEven = sut.ANumber % 2 == 0;
             return isEven;
-        }
-
-        private bool IsEven(EnviedClass sut, string gola)
-        {
-            return sut.ANumber % 2 == 0;
         }
     }
 }
