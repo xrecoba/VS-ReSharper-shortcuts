@@ -1,7 +1,7 @@
 public class LetsEditMultipleThings
 {
     /* Alt+Shift+mouse selection - Vertical selection with multi caret*/
-    /*  Add a '.' at the end of all these lines */
+    /* Add a '.' at the end of all these lines */
     // First Line.
     // Second Line.
     // Third Line.
@@ -27,4 +27,12 @@ public class LetsEditMultipleThings
     // Uncomment and comment again these lines:
     // The quick brown fox
     // jumps * over the lazy dog
+    
+    /* Ctrl+d duplicates selection */
+    /* Duplicate
+        the word quick
+        the line (selected)
+        the line (unselected)
+        */
+    // The quick brown fox
 }

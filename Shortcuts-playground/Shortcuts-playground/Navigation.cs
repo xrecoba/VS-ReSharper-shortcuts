@@ -1,14 +1,21 @@
 public class LetsNavigateThis
 {
-    // Standard Windows
+    // Standard Windows - In file
     // Use Ctrl+right and Ctrl+left to jump from word to word (works all-over windows)
     // Use Ctrl+Start and Ctrl+End to go to start and end of line
     // Combine with Shift to select
+    // Ctrl+x cut current line
+    
+    // Standard Windows - File navigation
+    // Ctrl+tab to go to previous file
+    // Ctrl+tab n times to go through the latest files (press shift to change direction)
+    // Ctrl+F4 to close current tab
     
     // Ctrl+t Go to everything
     // Look for MoveInstanceMethod, go there and come back with Ctrl+-
     // Try again, searching for "mim" (the capital letters)
     // Try again, searching for movime (a part of some words)
+    // Try again and split this screen horizontally
     
     // Ctrl+F12 - Go to definition of point
     public class Line
