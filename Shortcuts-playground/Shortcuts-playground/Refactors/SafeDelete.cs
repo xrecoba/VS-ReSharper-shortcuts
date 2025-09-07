@@ -1,7 +1,7 @@
 namespace ShortcutsPlayground;
 
 // Alt+Del - Safe Delete
-public class StuffToDelete
+public class SafeDelete
 {
     public void AMethodCallingAnother()
     {

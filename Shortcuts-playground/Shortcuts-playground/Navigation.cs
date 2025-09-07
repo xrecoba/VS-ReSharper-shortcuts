@@ -35,11 +35,35 @@ public class LetsNavigateThis
         public int X { get; set; }
         public int Y { get; set; }
     }
-
-
+    
     // Fold all methods in class with specific nesting level
     // Ctrl+Shift+Numpad*, number of nesting level
     // Ctrl+M+M Expand/Collapse current region
+    public class AClass
+    {   
+        public int WithAMethod()
+        {
+            return 0;
+        }
+        
+        public class NestedClass
+        {
+            public int InnerMethod()
+            {
+                return 0;
+            }
+            
+            public class EvenMoreNestedClass
+            {
+                public int InnerInnerMethod()
+                {
+                    return 0;
+                }
+            }
+        }
+    }
+    
+    // Alt+arrow up/down go to next method
     public class AClass
     {   
         public int WithAMethod()
