@@ -5,7 +5,7 @@ Apart of the files:
 
 - Navigation
   - Move method
-  - Fold method, fold old
+  - Fold method, fold all
   - Resharper Bookmarks
   - Move caret to previous position
   - Multi Caret edition
