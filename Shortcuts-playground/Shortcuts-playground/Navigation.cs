@@ -10,6 +10,26 @@ public class LetsNavigateThis
     // Try again, searching for "mim" (the capital letters)
     // Try again, searching for movime (a part of some words)
     
+    // Ctrl+F12 - Go to definition of point
+    public class Line
+    {
+        public Point Start { get; set; }
+        public Point End { get; set; }
+
+        public void Draw()
+        {
+            Console.WriteLine($"From {Start.X} {Start.Y} to {End.X} {End.Y}");
+        }
+    }
+
+    // Shift+F12 - Find usages of X (toy around with the window, lots of possibilities - read/write usages, ...)
+    public class Point
+    {
+        public int X { get; set; }
+        public int Y { get; set; }
+    }
+
+
     // Fold all methods in class with specific nesting level
     // Ctrl+Shift+Numpad*, number of nesting level
     // Ctrl+M+M Expand/Collapse current region
