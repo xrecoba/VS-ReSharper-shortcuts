@@ -1,7 +1,8 @@
 namespace ShortcutsPlayground;
 
-// Ctrl + R + I
-// Create a class that implements the interfacte (Alt+Enter on the interface name)
+// Ctrl+R+I
+// Create derived type (Alt+Enter on the interface name)
+// Implement missing members of the interface (Alt+Enter on the new implementing class)
 public class ExtractInterface
 {   
     public int AMethod()
@@ -15,7 +16,7 @@ public class ExtractInterface
         return aNumber.ToString();
     }
 
-    public void APrivateMethod()
+    private void APrivateMethod()
     {
 
     }
