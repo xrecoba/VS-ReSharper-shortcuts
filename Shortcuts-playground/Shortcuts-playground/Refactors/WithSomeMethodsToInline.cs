@@ -15,7 +15,7 @@ public class WithSomeMethodsToInline
 
     private void Method4() => Console.WriteLine("and hard to read");
 
-    private void Method3() => Console.WriteLine("was scattered");
+    private void Method3() => Console.WriteLine("is unnecessarily ");
 
     private void Method2() => Console.WriteLine("is doing");
 }
