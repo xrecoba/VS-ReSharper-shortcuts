@@ -64,7 +64,7 @@ public class LetsNavigateThis
     }
     
     // Alt+arrow up/down go to next method
-    public class AClass
+    public class ANavigationClass
     {   
         public int WithAMethod()
         {

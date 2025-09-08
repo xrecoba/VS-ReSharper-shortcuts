@@ -6,15 +6,21 @@ namespace ShortcutsPlayground;
 /* Ctrl+Alt+Shift+Arrow Up/Down to move the methods in the file up or down */
 /* Ctrl+Alt+Shift+Arrow Right/Left to move the methods inside the next one or outside the current one */
 
-// Select the methods using "extend selection" and Ctrl+Alt+Shift+Arrow Up/Down to sort them alphabetically
+// 1. Select the methods using "extend selection" and Ctrl+Alt+Shift+Arrow Up/Down to sort them alphabetically
+// 2. Move the class ThisShouldBeMovedOutside outside class MethodsToSort using Ctrl+Alt+Shift+Arrow 
 
 public class MethodsToSort
 {
+    public class ThisShouldBeMovedOutside
+    {
+        
+    }
+
     public string DMethod(int aNumber)
     {
         return aNumber.ToString();
     }
-    
+
     public string CMethod(int aNumber)
     {
         return aNumber.ToString();
