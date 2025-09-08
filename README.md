@@ -28,6 +28,7 @@ Apart of the files:
   - Surround with if
   - Un/Fold region, Fold all.
   - Ctrl Alt + F7 Go to related files
+  - Ctrl+Shift+V to open the last recently copied texts and paste one.
   
 - Shift delete (cut whole line)
 - Format code (Ctrl + k + d)
