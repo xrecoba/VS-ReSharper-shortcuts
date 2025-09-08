@@ -13,7 +13,7 @@ public class WithSomeMethodsToInline
     
     private void Method1() => Console.WriteLine("What this code");
 
-    private void Method4() => Console.WriteLine("and hard to read");
+    private void Method4() => Console.WriteLine("hard to read");
 
     private void Method3() => Console.WriteLine("is unnecessarily ");
 
