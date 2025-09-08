@@ -39,5 +39,4 @@ public class Ticket
     public string EmissionDate { get; set; }
     public string Total { get; set; }
     public static IEnumerable Lines { get; set; }
-
 }

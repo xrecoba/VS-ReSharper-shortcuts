@@ -1,7 +1,7 @@
 namespace ShortcutsPlayground;
 
 /* Ctrl+Shift+number Add or remove bookmark */
-/* Put bookmarks 1, 2 and 3 for each class */
+/* Put bookmarks 1, 4 and, one for each class */
 /* Ctrl+number goes to the bookmark */
 public class Bookmarking
 {

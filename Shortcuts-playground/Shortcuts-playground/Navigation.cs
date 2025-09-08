@@ -4,7 +4,7 @@ public class LetsNavigateThis
     // Use Ctrl+right and Ctrl+left to jump from word to word (works all-over windows)
     // Use Ctrl+Start and Ctrl+End to go to start and end of line
     // Combine with Shift to select
-    // Ctrl+x cut current line
+    // Ctrl+x or Shift+del to cut current line
     
     // Standard Windows - File navigation
     // Ctrl+tab to go to previous file
