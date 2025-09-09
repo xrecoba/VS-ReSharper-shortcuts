@@ -10,5 +10,4 @@ public class Surrounding
             return false;
         }
     }
-    
 }
