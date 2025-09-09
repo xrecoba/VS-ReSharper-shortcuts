@@ -3,7 +3,6 @@ using static ShortcutsPlayground.MoveMethodsInHierarchy;
 namespace ShortcutsPlayground;
 
 /* Ctrl+Alt+Shift+Arrow Up/Down --> Move line up or down */
-/* With the extended selection, Ctrl+Alt+Shift+Arrow Up/Down to move the methods in the file up or down */
 /* Sort these lines */
 
 public class ClassWithLinesToSort
