@@ -3,8 +3,7 @@ using static ShortcutsPlayground.MoveMethodsInHierarchy;
 namespace ShortcutsPlayground;
 
 /* Ctrl+Alt+Shift+Arrow Up/Down --> Move line up or down */
-/* Sort these lines */
-
+// 1. Sort these lines
 public class ClassWithLinesToSort
 {
     public void Whatever()

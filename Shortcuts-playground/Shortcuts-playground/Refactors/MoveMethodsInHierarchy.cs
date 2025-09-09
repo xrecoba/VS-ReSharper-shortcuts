@@ -2,9 +2,9 @@ using static ShortcutsPlayground.MoveMethodsInHierarchy;
 
 namespace ShortcutsPlayground;
 
-/* Ctrl + R + O on method name (on Visual Studio), Ctrl+Shift+r and then push or pull members up on Rider*/
-// Move OuterMethod to FirstLevel and AMethod to the ThirdLevel
+/* Ctrl+Shift+r and then push or pull members up on Rider */
 
+// 1. Move OuterMethod to FirstLevel and AMethod to the ThirdLevel
 public class MoveMethodsInHierarchy
 {
     public class FirstLevel

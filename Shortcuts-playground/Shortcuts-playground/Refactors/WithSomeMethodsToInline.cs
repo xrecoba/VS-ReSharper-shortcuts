@@ -1,6 +1,8 @@
 namespace ShortcutsPlayground;
 
-// Extract method: Ctrl + R + I
+// Ctrl+r+i - Inline method (you can also do it for variables)
+
+// 1. Inline all the private methods in this class to make it more readable
 public class WithSomeMethodsToInline
 {
     public void TheMethod()

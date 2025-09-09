@@ -3,8 +3,8 @@ using System.Text;
 
 namespace ShortcutsPlayground;
 
-/* Extract method: Ctrl + r + m */  
-/* Split the method in 3 functions (header, body, footer) */
+/* Ctrl+r+m - Extract method */
+// 1. Split the method in 3 functions (header, body, footer) 
 public class WithSomeMethodsToExtract
 {
     public class TicketPrinter

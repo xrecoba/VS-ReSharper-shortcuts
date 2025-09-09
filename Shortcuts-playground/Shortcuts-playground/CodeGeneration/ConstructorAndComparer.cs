@@ -6,7 +6,7 @@ namespace ShortcutsPlayground;
 // Alt+Ins - Create constructor overload without parameter
 // propg snippet to create a property with Getter only
 
-class WithoutConstructorNorComparer
+public class ConstructorAndComparer
 {
     private readonly int _age;
     private readonly string _name;

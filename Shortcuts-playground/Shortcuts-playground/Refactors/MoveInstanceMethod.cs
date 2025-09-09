@@ -2,9 +2,11 @@ namespace ShortcutsPlayground;
 
 class MoveInstanceMethod
 {
-    //1. Extract a method that receives the class we wanna move to (Ctrl+r+m)
+    //1. Extract a method that receives as parameter the class we wanna move to (Ctrl+r+m),
+    
+    //  In this example, the calculation when a number is even should be moved to the Envied Class.
     //2.A Move to instance method (Ctrl+r+o) in case the method was not static
-    //2.B Make method non-static in case the method was static (automatically moves it to Envied Class
+    //2.B Make method non-static in case the method was static (automatically moves it to Envied Class)
     public class EnviedClass
     {
         public int ANumber { get; set; }
