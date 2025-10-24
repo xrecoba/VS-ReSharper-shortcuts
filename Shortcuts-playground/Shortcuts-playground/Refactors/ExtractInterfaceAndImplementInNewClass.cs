@@ -5,6 +5,7 @@ namespace ShortcutsPlayground;
 // 1. Extract Interface of this class, containing only public methods
 // 2. Create new derived type (Alt+Enter on the interface name)
 // 3. Implement missing members of the interface (Alt+Enter on the new implementing class)
+// 4. Move Types Into Matching Files by right click on the file in Solution Explorer
 public class ExtractInterfaceAndImplementInNewClass
 {   
     public int AMethod()
