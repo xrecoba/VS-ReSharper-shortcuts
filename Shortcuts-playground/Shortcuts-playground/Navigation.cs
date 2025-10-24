@@ -15,7 +15,7 @@ public class LetsNavigateThis
     // 1. Look for MoveInstanceMethod, go there and come back with Ctrl+-
     // Try again, searching for "mim" (the capital letters)
     // Try again, searching for movime (a part of some words)
-    // Try again and split this screen horizontally
+    // (Rider only) Try again and split this screen horizontally
 
     /* F12 - Go to definition */
     // 2. Go to definition of IPoint
@@ -31,7 +31,7 @@ public class LetsNavigateThis
     }
 
     /* Ctrl+F12 - Go to implementation*/
-    // 2. Go to definition of IPoint
+    // 2. Go to implementation of IPoint
     public interface IPoint
     {
         int X { get; set; }
@@ -48,10 +48,10 @@ public class LetsNavigateThis
 
     // 4. Make a new implementation of IPoint and then try to Go to implementation again
 
-    /* Ctrl+M+O Collapse all */
-    /* Ctrl+M+L Expand all */
+    /* Ctrl+M+L Collapse all */
+    /* Ctrl+M+O Expand all */
     /* Ctrl+M+M Expand/Collapse current location */
-    /* Rider Only :( --> Ctrl+Shift+Numpad*, number of nesting level - Fold all methods in class with specific nesting level */
+    /* Rider Only :( --> Ctrl+Shift+Numpad* (release Ctrl+Shift and then press the number of nesting level you want - Fold all methods in class with specific nesting level */
     
     // 5. Collapse all classes and then expand only the first level
 
@@ -80,6 +80,7 @@ public class LetsNavigateThis
     }
 
     /* Alt+arrow up/down go to next method */
+    /* Ctrl+arrow up/down window */
     // 6. Use Alt+arrow up/down to navigate between methods in this class and in the nested classes
     public class ANavigationClass
     {
